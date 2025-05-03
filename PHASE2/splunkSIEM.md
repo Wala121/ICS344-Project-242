@@ -15,14 +15,16 @@ As a result, we decided to adopt a **manual approach**:
 We downloaded and installed **Splunk Enterprise** on Kali Linux using the `.deb` package.  
 After accepting the license and starting the service, we accessed the Splunk Web Interface at:
 http://localhost:8000/
-Photo 1&2
+
+##Photo 1&2
 
 ---
 
 ## Step 2: Access Splunk Web Interface
 
 We logged into Splunk Web Interface using the **admin credentials** set during the initial setup.
-Photo 3&4
+
+##Photo 3&4
 
 ---
 
@@ -37,7 +39,8 @@ Then, we used **Splunk Web**:
 to ingest the log file into the system.
 
 ✅ The log file was uploaded successfully to Splunk and is ready for searching and analysis.
-Photo 5&6&7
+
+##Photo 5&6&7
 ---
 
 ## Step 4: Search and Analyze Logs
@@ -49,13 +52,15 @@ We used the **Splunk Search & Reporting App** to:
 - Investigate SSH behavior
 
 This helped us identify successful and failed SSH login attempts initiated during the attack.
-Photo 8&9
+
+##Photo 8&9
 ---
 
 ## Step 5: Dashboard Visualization
 
 📈 This spike in the graph indicates a **significant increase in events** related to unauthorized access attempts.  
 The rise reflects the attacker's **repeated SSH login attempts**, which were captured by the system and visualized through Splunk dashboards.
-Photo 10
+
+##ٍPhoto 10
 
 
